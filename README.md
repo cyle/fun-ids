@@ -1,6 +1,6 @@
 # Fun IDs
 
-Because why not. [appear.in](appear.in) hasn't made their method public yet.
+Because why not. [appear.in](https://appear.in/) hasn't made their method public yet.
 
 Creats fun identifier strings like:
 
@@ -17,11 +17,17 @@ Awesome. Easy IDs for you to say out loud and share.
 
 Just `npm install fun-ids` and then:
 
-    var fun_id = require('fun-ids');
-	var new_id = fun_id();
-	console.log(new_id);
+    var fun_ids = require('fun-ids');
+	console.log(fun_ids.new_id());
 
 Edit `adjectives.json` and `nouns.json` as you see fit. Make sure there are lots.
+
+You can see how many possible unique IDs there are in the current set by using the `possible_ids()` method:
+
+	var fun_ids = require('fun-ids');
+	console.log(fun_ids.possible_ids());
+
+That is all.
 
 ## Notes
 
