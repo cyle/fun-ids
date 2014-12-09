@@ -1,0 +1,13 @@
+{
+	"name" : "fun-ids",
+	"version" : "0.0.1",
+	"description" : "Fun IDs for easy readability.",
+	"main" : "ids.js",
+	"dependencies" : {
+		"alea" : "0.0.9"
+	}
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/cyle/fun-ids.git"
+	}
+}
